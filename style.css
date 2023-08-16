@@ -1,0 +1,93 @@
+header {
+position: fixed;
+top:0%;
+left: 0%;
+border: 1px solid white;
+background-color: white;
+opacity: .8;
+}
+.navigation {
+    display: flex;
+}
+.docplanner-logo {
+    width: 70%;
+    display: block;
+    margin-block-start: 2%;
+    margin-block-end: 2%;
+    margin-inline-start: 2%;
+    margin-inline-end: 2%;}
+
+.docplanner-logo img {
+    width:35%;
+}
+.nav-links {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+.nav-links a {
+    text-decoration: none;
+    color: rgb(0,197,155);
+    margin:18px;
+}
+.container{
+    padding: 10%;
+}
+.general-infos-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.Docplanner-sygnet {
+   display:flex;
+   justify-content: center;
+}
+.general-infos-container h1 {
+    width: 50%;
+    margin-left: 25%;
+    color: rgb(0,197,155);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, cursive;
+}
+.services-container {
+    align-items: center ;
+    margin-bottom: 37%;
+}
+.services-container-for-patients {
+    height: 300px;
+    margin-bottom: 2%;
+    width: 100%;
+}
+.services-container-for-patients-image img {
+    display: block;
+    margin-block-start: -3em;
+    margin-inline-start: 16em;
+    margin-inline-end: 305px;
+}
+.services-container-for-doctors {
+    height: 300px;
+    width: 100%;
+}
+.services-container-for-doctors-image img {
+    display: block;
+    margin-block-start: -5em;
+    margin-inline-start: 9em;
+    margin-inline-end: 305px;
+}
+
+    .introduction-logo img {
+        display: none;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns:;
+        gap: 10px; 
+       
+        background-color: aquamarine;
+      }
+    
+     
+     
+
+
+
